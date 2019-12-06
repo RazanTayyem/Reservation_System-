@@ -1,0 +1,52 @@
+{
+  "name": "reservation",
+  "version": "1.0.0",
+  "description": "A web app that enables the PTUK staff to coordinate the reservation process in their organization between all of them.",
+  "main": "index.js",
+  "engines": {
+    "node": "8.16.2",
+    "npm": "6.4.1"
+  },
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "client": "cd client && npm run start",
+    "start": "node ./server/server.js",
+    "server": "nodemon ./server/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "db:query": "psql -U ptuk1 -d razo0on -a -f ./queries.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RazanTayyem/Reservation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RazanTayyem/Reservation/issues"
+  },
+  "homepage": "https://github.com/RazanTayyem/Reservation#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cookie": "^0.3.1",
+    "env2": "^2.2.2",
+    "express": "^4.16.4",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "pg": "^7.8.0",
+    "pg-hstore": "^2.3.2",
+    "react-big-calendar": "^0.20.3",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "nodemon": "^1.18.10"
+  }
+}

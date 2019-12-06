@@ -1,0 +1,204 @@
+body {
+  background-color: #f7f2f2;
+}
+.both {
+  display: flex;
+}
+.BookEvent {
+  width: 66%;
+  float: right;
+  margin: 150px 10px 60px 50px;
+}
+.container {
+  display: flex;
+  border-radius: 5px;
+  margin-top: -130px;
+  margin-right: 25px;
+  background-color: white;
+  box-shadow: 5px 10px 5px grey;
+}
+.column1 {
+  flex-direction: column;
+  width: 50%;
+  margin-left: 46px;
+  margin-bottom: 20px;
+}
+.column2 {
+  flex-direction: column;
+  width: 50%;
+  margin-top: 68px;
+  margin-bottom: 20px;
+}
+.h2 {
+  margin-left: 10px;
+}
+.label {
+  display: block;
+  padding-top: 10px;
+  margin-left: 12px;
+}
+
+.input::placeholder {
+  font-size: 1.2em;
+  font-style: italic;
+}
+.note::placeholder {
+  font-size: 1.2em;
+  font-style: italic;
+}
+.coffeecost::placeholder {
+  font-size: 1.2em;
+  font-style: italic;
+}
+.lunchcost::placeholder {
+  font-size: 1.2em;
+  font-style: italic;
+}
+.equipmentcost::placeholder {
+  font-size: 1.2em;
+  font-style: italic;
+}
+.lunchtime::placeholder {
+  font-size: 1.2em;
+  font-style: italic;
+}
+.coffeetime::placeholder {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.input {
+  background-color: #fafcfc;
+  border: none;
+  color: #0d0d0d;
+  width: 80%;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 2px solid #719ceb;
+  margin: 10px 0px 10px 12px;
+  padding: 5px 0px 5px 2px;
+}
+.note {
+  background-color: #fafcfc;
+  border: none;
+  color: #0d0d0d;
+  width: 80%;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 2px solid #719ceb;
+  margin: 10px 0px 10px 12px;
+  padding: 10px 0 90px 2px;
+}
+.bookdates {
+  background-color: #fafcfc;
+  border: none;
+  color: #0d0d0d;
+  width: 80%;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 2px solid #719ceb;
+  margin: 10px 0px 10px 12px;
+  padding: 5px 76px 5px 2px;
+}
+
+.lunchcost {
+  background-color: #fafcfc;
+  border: none;
+  color: #0d0d0d;
+  width: 80%;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 2px solid #719ceb;
+  margin: 222px 0 10px 12px;
+  padding: 5px 0px 5px 2px;
+}
+.lunchtime {
+  background-color: #fafcfc;
+  border: none;
+  color: #0d0d0d;
+  width: 80%;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 2px solid #719ceb;
+  margin: 48px 0 10px 12px;
+  padding: 5px 0px 5px 2px;
+}
+
+.coffee {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.coffeecost {
+  background-color: #fafcfc;
+  border: none;
+  color: #0d0d0d;
+  width: 80%;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 2px solid #719ceb;
+  margin: 78px 0 10px 12px;
+  padding: 5px 0px 5px 2px;
+}
+.coffeetime {
+  background-color: #fafcfc;
+  border: none;
+  color: #0d0d0d;
+  width: 80%;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 2px solid #719ceb;
+  margin: 48px 0 10px 12px;
+  padding: 5px 0px 5px 2px;
+}
+
+.equipment {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+.equipmentcost {
+  background-color: #fafcfc;
+  border: none;
+  color: #0d0d0d;
+  width: 80%;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  border-bottom: 2px solid #719ceb;
+  margin: 87px 0 10px 12px;
+  padding: 5px 0px 5px 2px;
+}
+
+.totalcost {
+  margin-top: 85px;
+}
+.submitBtn,
+.cancelBtn {
+  background-color: #4176d7;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  height: 40px;
+  margin-left: 220px;
+  margin-top: 50px;
+  width: 100px;
+}
+.total {
+  display: flex;
+  flex-direction: row;
+}
+
+.cancelBtn {
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
