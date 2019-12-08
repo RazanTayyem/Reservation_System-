@@ -110,3 +110,25 @@
   line-height: normal;
   font-size: 16px;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+ .headerHolder {
+   margin-top: -83px;
+   width: 110%;
+ }
+ .buttons-container{
+   width: 113%;
+ }
+ .halls-row{
+   width: 110%;
+   justify-content: center;
+ }
+ .tab-container{
+   margin-right: -143px;
+   width: 138%;
+   margin-top: -1px;
+ }
+
+}
