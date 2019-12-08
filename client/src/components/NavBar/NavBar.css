@@ -40,5 +40,35 @@
 }
 
 .website-title {
-  margin-left: 20px;
+  margin-left: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logout-btn {
+    font-size: 10px;
+    margin-right: 34px;
+
+  }
+  .main-title {
+    justify-content: center;
+    font-size: 10px;
+  }
+  .nav-outer {
+    width: 100%;
+  }
+  .nav-bar1 {
+    margin-top: -7px;
+    width: 113%;
+    margin-left: -44px;
+
+}
+.website-title{
+  margin-left: 12px;
+  margin-right: 48px;
+
+}
+.logo{
+  width:100%;
+  margin-left:-16px;
+}
 }
