@@ -8,7 +8,32 @@ body {
   padding-right: 50px;
   padding-left: 30px;
 }
-
+.rbc-time-header rbc-overflowing{
+  margin-right: 15px;
+}
+.rbc-time-view{
+    width: 100%;
+  }
 .both {
   display: flex;
+}
+.rbc-toolbar{
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  .calendar-container{
+    padding-left: 0px;
+    margin-top: 500px;
+
+  }
+
+.rbc-time-header rbc-overflowing{
+  margin-right: -1px;
+}
+.rbc-time-view{
+    width: 150%;
+  }
+  .rbc-toolbar{
+    display: inline-block;
+  }
 }
