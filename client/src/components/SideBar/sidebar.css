@@ -57,3 +57,20 @@
   width: 240px;
   height: 190px;
 }
+
+@media only screen and (max-width: 600px) {
+.sidebar{
+box-sizing: border-box;
+padding: 100px;
+}
+.line{
+  width: 238px;
+height: 3px;
+margin-left: -236px;
+margin-top: 482px;
+margin-right: -244px;
+}
+.rbc-btn-group{
+margin-right: 137px;
+}
+}

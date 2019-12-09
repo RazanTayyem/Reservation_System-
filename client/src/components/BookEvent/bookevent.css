@@ -202,3 +202,44 @@ body {
   margin-left: 10px;
   margin-bottom: 50px;
 }
+@media only screen and (max-width: 600px) {
+.BookEvent{
+  margin: 150px 15px 60px -26px;
+  width: 100%;
+  }
+  .column1 {
+    width: 50%;
+    margin-left: 0px;
+}
+.bookdates {
+  padding: 5px 1px 5px 2px;
+  font-size: 14px;
+}
+.input{
+  font-size: 12px;
+}
+.note{
+  font-size: 12px;
+}
+.lunchcost {
+  font-size: 12px;
+}
+.lunchtime{
+  font-size: 12px;
+}
+.coffeecost{
+  font-size: 12px;
+
+}
+.coffeetime{
+  font-size: 12px;
+
+}
+.equipmentcost{
+  font-size: 12px;
+}
+.submitBtn, cancelBtn{
+margin-left: -14px;
+width: 96px;
+}
+}
