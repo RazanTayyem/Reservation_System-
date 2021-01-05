@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "ajv": "^6.8.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-eslint": "^9.0.0",
     "globalize": "^1.4.0",
     "react": "^16.8.1",
